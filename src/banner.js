@@ -1,5 +1,6 @@
+import banner_img from '../assets/banner.png'
 const banner = document.createElement('img');
-banner.src = '../assets/Abyss_Bar_Banner.png'
+banner.src = banner_img;
 banner.id = 'banner';
 
 export default banner;

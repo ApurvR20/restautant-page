@@ -4,15 +4,19 @@ const Navbar = () =>{
     navbar.id = 'navbar';
     
     const home = document.createElement('li');
-    let a = document.createElement('a');
-    a.textContent = 'Home';
-    home.appendChild(a);
+    const a1 = document.createElement('a');
+    a1.textContent = 'Home';
+    home.appendChild(a1);
 
     const menu = document.createElement('li');
-    menu.textContent = 'Menu';
+    const a2 = document.createElement('a');
+    a2.textContent = 'Menu';
+    menu.appendChild(a2);
 
     const contact = document.createElement('li');
-    contact.textContent = 'Contact';
+    const a3 = document.createElement('a');
+    a3.textContent = 'Contact';
+    contact.appendChild(a3);
 
     navbar.appendChild(home);
     navbar.appendChild(menu);

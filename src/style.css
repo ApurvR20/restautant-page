@@ -4,30 +4,20 @@ html,body{
     width: 100%;
 }
 body{
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    flex-direction: column;
+    background-color: #191B1C;
+    overflow: scroll;
 }
+
 #page{
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
+    height: inherit;
     align-items: center;
-    height: 100%;
-    width: 100%;
     color: white;
-}
-#content
-{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #191B1C;
 }
 
 #headline{
@@ -41,7 +31,7 @@ body{
 }
 
 #credits{
-    width: 10px;
+    width: 20px;
     height: auto;
 }
 
@@ -50,7 +40,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 10%;
+    min-height: 10%;
     display: flex;
     background-color: #141516;
     justify-content: space-evenly;
@@ -69,6 +59,26 @@ ul {
   }
 
   #banner{
-    width: 50%;
+    width: 40%;
     height: auto;
+  }
+
+  td{
+    padding: 10px;
+  }
+
+  li:hover{
+    cursor: pointer;
+  }
+
+  #footer{
+
+    min-height : 15%;
+    width: 100%;
+    font-size: 26px;
+    color: white;
+    background-color: #141516;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
